@@ -14,7 +14,7 @@ html {
 }
 
 .game_backround {
-  background: url('/images/sunset.jpg');
+  background: url('./images/sunset.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
