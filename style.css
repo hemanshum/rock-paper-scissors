@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+:root {
+  --primary: #ffffff;
+  --secondary: #3399fe;
+}
+
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Luckiest Guy';
+}
+
+.game_backround {
+  background: url('/images/sunset.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+h1 {
+  font-size: 45px;
+  line-height: 48px;
+  font-weight: 100;
+  text-align: center;
+  padding: 1em;
+  color: var(--primary);
+}
+
+.game_container {
+  height: 28rem;
+  /* background:rgb(58, 55, 55);*/
+  width: 80rem;
+  padding: 1.5rem;
+  margin: 1rem auto;
+}
+
+.game_play_strategy {
+  display: flex;
+  /*margin: 2em;*/
+  padding-bottom: 3em;
+  justify-content: space-between;
+}
+
+.computer_score,
+.user_score {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: var(--primary);
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 0.5em;
+  text-align: center;
+  color: var(--primary);
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 28px;
+  margin-top: 0.5em;
+  text-align: center;
+  color: var(--primary);
+}
+
+.game_playbutton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.game_playbutton .btn {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  background: var(--primary);
+  border-radius: 10px;
+  border: 2px var(--primary);
+  cursor: pointer;
+  color: var(--secondary);
+  font-size: 30px;
+  width: 222px;
+  height: 80px;
+}
+
+.msg {
+  font-size: 48px;
+  line-height: 48px;
+  margin-top: 1em;
+  text-align: center;
+  color: var(--primary);
+}
+
+.game_makechoice {
+  display: flex;
+  /*background: yellow;*/
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 1em;
+  justify-content: space-evenly;
+}
+
+.choice {
+  font-size: 6rem;
+  background: transparent;
+  border: none;
+}
+
+.cselectedimg {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.uselectedimg {
+  text-align: center;
+  font-size: 4rem;
+}
